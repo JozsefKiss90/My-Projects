@@ -1,0 +1,300 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.row-about {
+    height: 3rem;
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+    
+}
+
+.row-about-2 {
+    height: 30rem;
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+}
+
+.text-box {
+    display: inline-block;
+  width: 15rem;
+  padding: 0;
+  padding-top: 25px;
+}
+
+.row-footer {
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+    height: 20rem;
+}
+
+.form-control{
+    width: 16.5rem;
+    padding-left: 2.8rem;
+}
+
+.footer-form {
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    height: 2.5rem;
+    width: 16.5rem;
+    
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 1; /* Firefox */
+}
+
+.form-control:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+    border-color: #b7a1e0;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(29, 29, 29, 0.95);
+  }
+
+  .footer-text {
+      color:white;
+  }
+
+  hr {
+      color:red;
+  }
+
+.gallery-div {
+    text-align: center;
+    height:25rem;
+    
+}
+
+.about-text {
+    text-align: justify; padding-right: 3.6rem;
+}
+
+.icon {
+    font-size:2rem;
+    color:white;
+} 
+
+.p-about {
+    font-size: 1.1rem;
+}
+
+.p-footer-1 {
+    text-align: center;
+}
+
+.poll-pic {
+    width:82%; 
+    height:82%; 
+    padding-left: 3rem; 
+    margin-bottom: 3.5rem;
+}
+
+.poll-pic-1 {
+    width: 100%;
+    height:200px;
+}
+
+.media-about {
+    display: none;
+    height: 14rem;
+    background-color: rgba($color: #070707d7, $alpha: 0.95);
+}
+
+.form-2 {
+    display: none;
+}
+
+
+.media-about-1, .poll-pic {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+
+    @include media-breakpoint-down(lg) {
+        display: none;
+    }
+}
+
+
+@media screen and  (max-width: 1000px) {
+
+    .row-about {
+        height: 5rem;
+        background-color: rgba($color: #070707d7, $alpha: 0.95);
+        font-size: 2rem;
+    }
+
+    .row-about-2 {
+        height: 16rem;
+        width: 100%;
+        display: flex;
+        margin-left: 0; 
+        margin-top: 0;
+    
+    }
+
+    .footer-col{
+        width: 16rem;
+        
+    }
+
+    .border-right {
+        display: none;
+        height: 0rem;
+    }
+
+    .about-text {
+        text-align: justify; 
+        padding: 0 2rem 0 2rem;
+        margin-right: 0.8rem; 
+        height: 15rem;
+        
+    }
+
+    .p-about{
+        font-size: 1.2rem;
+    }
+
+    .media-about {
+        display: flex;
+        height: 22rem;
+    }
+
+    .media-about-1 {
+        display: flex;
+    }
+
+    .poll-pic-1 {
+        width: 500px;
+        height:320px;
+        margin-bottom: 3rem;
+    }
+
+    .form-control{
+        
+        padding-left: 1.7rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .row-about {
+        height: 3rem;
+        background-color: rgba($color: #070707d7, $alpha: 0.95);
+        font-size: 1.4rem;
+        
+    }
+
+    .row-about-2 {
+        height: 14rem;
+        width: 24.2rem;
+        display: flex;
+        margin-left: 0;
+      
+    }
+
+    .media-about {
+        display: flex;
+        height: 14rem;
+    }
+
+    .media-about-1 {
+        display: flex;
+        height: 16rem;
+    }
+
+    .about-text {
+        text-align: justify; 
+        padding: 0 2rem 0 2rem;
+        margin-right: 0.8rem; 
+        height: 15rem;
+    }
+
+    .p-about {
+        font-size: 0.9rem;
+    }
+
+    .poll-pic-1 {
+        width: 100%;
+        height:200px;
+    }
+
+    .footer-text {
+        color:white;
+        font-size: 1rem; 
+    }
+
+    .row-footer {
+        height: 20.5rem;
+    }
+
+
+    .footer-col{
+        width: 7.3rem;
+        
+    }
+
+    .footer-svg-1 {
+        height: 0.4rem;
+    }
+
+    .footer-svg {
+        height: 0.8rem;
+    }
+
+    ul li{
+        font-size: 0.9rem;
+    }
+
+    .p-footer {
+            font-size: 0.8rem;
+            text-align: center;
+    }
+
+    .p-footer-1 {
+        font-size: 0.8rem;
+        text-align: left;
+}
+
+    .h5-media{
+        margin-bottom: 1.28rem;
+    }
+
+    .icon{
+        font-size:1.4rem;
+    }
+
+    .form-control{
+        width: 7rem;
+        height: 2rem;   
+        padding-left: 1rem;
+    }
+
+    .footer-form {
+        background-color: rgba($color: #070707d7, $alpha: 0.95);
+        border: 2px solid rgb(255, 255, 255);
+        color: white;
+        height: 2rem;
+        width: 7rem;
+    }
+
+    .form-control::placeholder{
+        font-size: 0.8rem;
+    }
+
+    .form-1 {
+        display: none;
+    }
+
+    .form-2 {
+        display: block;
+    }
+
+    .btn-2 {
+        padding: 0rem 1.3rem;
+        i{
+            font-size: 0.8rem;
+        }
+    }
+
+}

@@ -1,0 +1,78 @@
+.quantity{
+	display:flex;
+	
+ }
+ 
+ /* it will support chrome and firefox */
+ .quantity input[type=number]::-webkit-inner-spin-button,
+ .quantity input[type=number]::-webkit-outer-spin-button{
+	-webkit-appearance:none;
+ }
+ 
+.btn-div {
+	border:2px solid black;
+}
+
+ .quantity input {
+	width:45px;
+	height:40px;
+	font-size:1rem;
+	font-weight:900;
+	background:white;
+	
+ }
+
+ .quantity button {
+	width:30px;
+	height:40px;
+	font-size:1rem;
+	outline: none;
+	font-weight:900;
+	background:white;
+	
+}
+ 
+ 
+
+.btn-minus1 {
+	border:none;
+}
+
+.btn-add1 {
+	border:none;
+}
+
+.button:focus {
+	outline: none;
+  }
+
+@media (max-width:1000px) {
+	.btn-div {
+		margin-left: 1rem;
+	}
+}
+
+@media (max-width:576px) {
+	.quantity button {
+		width:25px;
+		height:35px;
+		font-size:0.9rem;
+		outline: none;
+		font-weight:900;
+		background:white;
+	}
+
+	.quantity input {
+		width:40px;
+		height:35px;
+		font-size:0.9rem;
+		font-weight:700;
+		background:white;
+		
+	 }
+
+	 .btn-div {
+		position: relative;
+		right: 21px;
+	}
+  }

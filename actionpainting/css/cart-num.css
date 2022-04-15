@@ -1,0 +1,19 @@
+.cart-num {
+    position:absolute;
+    bottom:1px;
+    background-color: rgb(180, 0, 0);
+    border-radius: 50%;
+    height:1rem;
+    width: 1rem;
+    z-index: 0;
+}        
+
+.cart-num  p {
+    position: relative;
+    bottom:12px;
+    font-style: normal;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+    font-size: 0.9rem;
+}

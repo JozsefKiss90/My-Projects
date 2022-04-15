@@ -1,0 +1,53 @@
+@use '../custom' as *;
+
+// GRADIENT MIXIN 
+@mixin gradient {
+    background: linear-gradient(to right, rgba(71, 71, 71, 0.95), rgba(228, 119, 41, 0.95));
+}
+
+@mixin gradient-1 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), $url-1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+
+@mixin gradient-2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), $url-2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+@mixin gradient-3 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), $url-3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+} 
+
+
+
+// ABSOLUTE CENTER 
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// TRANSITION PROPERTY 
+@mixin transitionProperty {
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+@mixin absoluteCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
