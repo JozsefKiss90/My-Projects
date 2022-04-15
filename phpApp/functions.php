@@ -2,7 +2,7 @@
 require('database/DBController.php');
 
 require('database/product.php');
-
+ 
 require('database/cart.php'); 
 
 require('database/users.php');
