@@ -2,7 +2,10 @@
 
 My name is Jozsef Kiss and I am a self thaught web-developer from hungary. I started programming in the spring of 2021 and have done several projects since then. My first one was a virtual laboratory to conduct online psychological experiments for benchmarking e-sport players. The next one was a webshop where I planned to sell paintings, that I started to write in php and JS. However my buisness model wasn't right and realized that React would be a better solution for implementation so I created a new one. Now I'm working on new experiments. 
 
-[my experiments](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/networks)
+[the page of my experiments](http://esportmetrics.hu)
+-[attentional networks task](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/networks)
+-[hand eye coordination task](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/hand_eye)
+-[flanker compatibility task](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/flanker)
 
 ### My basic skills 
 
