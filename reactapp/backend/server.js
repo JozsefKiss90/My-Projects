@@ -11,7 +11,7 @@ const paymentIntent = require('./routes/api/paymentintent');
 const webhook = require('./routes/api/webhook');
 dotenv.config()
 const app = express()
-
+ 
 app.use(express.json({
   verify: (req, res, buffer) => req['rawBody'] = buffer, 
 }));

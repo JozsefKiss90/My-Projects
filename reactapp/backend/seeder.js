@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv')
 const Image = require('./models/Images')
 const products = require('./data/products')
-
+ 
 dotenv.config()
 const db = require('./config/keys').mongoURI;
 
