@@ -1,6 +1,6 @@
 # Esportmetrics
 
-This is a virtual laboratory where I run cognitive psychological experiments. 
+This is a virtual laboratory where I run cognitive psychological experiments. Two of the tasks were built by jsPsych library.
 You can visit the page here: [http://esportmetrics.hu](http://esportmetrics.hu/),
 and the experiments here:
 </br>
