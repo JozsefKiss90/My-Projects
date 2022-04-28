@@ -13,5 +13,5 @@ and the experiments here:
 [flanker compatibility task](https://esportmetrics.hu/flanker/flanker.html)
 [git](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/flanker)
 
-[APM test](https://https://esportmetrics.hu/apm/index.html)
+[APM test](https://esportmetrics.hu/apm/index.html)
 [git](https://github.com/silentstorm902/My-Projects/tree/master/esportmetrics/apm)
