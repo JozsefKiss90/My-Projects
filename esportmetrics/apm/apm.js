@@ -8,12 +8,13 @@
     let zIndex = 999
 
     let zArray = [0,1,2,3,4,5]
-
-
     let firstElement
     let secondElement
     let thirdElement
-    
+    let fourthElement
+    let fifthElement
+    let sixthElement
+    let sixthElement
     const container = document.getElementById('container')
 
     function init() {
@@ -237,7 +238,6 @@
 
         firstElement.addEventListener('mousedown', handler_1)
         firstElement.addEventListener('mousedown', function() {
-            console.log('wtf')
             clearInterval(Interval);
         Interval = setInterval(startTimer, 10);
         })
